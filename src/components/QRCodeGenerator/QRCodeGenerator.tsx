@@ -7,6 +7,6 @@ interface QRCodeGeneratorProps {
 
 
 export const QrCodeGenerator: React.FC<QRCodeGeneratorProps> = ({value}) => {
-    return <QRCode value={value}/>
+    return <QRCode value={value} size={300}/>
 };
 

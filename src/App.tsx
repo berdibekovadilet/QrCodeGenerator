@@ -8,11 +8,14 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <input
+                    className="input-text"
                     type="text"
                     value={text}
                     onChange={(e) => setText(e.target.value)}
                 />
-                <QrCodeGenerator value={text}/>
+                <div className="qr-code">
+                    <QrCodeGenerator value={text}/>
+                </div>
             </header>
         </div>
     );
