@@ -1,0 +1,1 @@
+export {QrCodeGenerator} from "./QRCodeGenerator"
