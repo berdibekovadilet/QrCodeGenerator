@@ -1,4 +1,5 @@
 # QR Code Generator
+Live preview: https://qrcodegeneratorsimple.netlify.app/
 
 ![Screen Banner](cover/1.png)
 
